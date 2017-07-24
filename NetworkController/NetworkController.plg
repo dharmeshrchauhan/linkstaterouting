@@ -1,0 +1,62 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: NetworkController - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Debug/NetworkController.res" /d "_DEBUG" "E:\Prj1\Prj\WideAreaNetwork\NetworkController\NetworkController.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPF2.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fp"Debug/NetworkController.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\Prj1\Prj\WideAreaNetwork\NetworkController\MainFrm.cpp"
+"E:\Prj1\Prj\WideAreaNetwork\NetworkController\NetworkController.cpp"
+"E:\Prj1\Prj\WideAreaNetwork\NetworkController\NetworkDoc.cpp"
+"E:\Prj1\Prj\WideAreaNetwork\NetworkController\NetworkView.cpp"
+"E:\Prj1\Prj\WideAreaNetwork\NetworkController\Node.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPF2.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPF3.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fp"Debug/NetworkController.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\Prj1\Prj\WideAreaNetwork\NetworkController\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPF3.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPF4.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/Nctr.pdb" /debug /machine:I386 /out:"..\Executables\Nctr.exe" /pdbtype:sept 
+.\Debug\MainFrm.obj
+.\Debug\NetworkController.obj
+.\Debug\NetworkDoc.obj
+.\Debug\NetworkView.obj
+.\Debug\Node.obj
+.\Debug\StdAfx.obj
+.\Debug\NetworkController.res
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPF4.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+MainFrm.cpp
+NetworkController.cpp
+NetworkDoc.cpp
+Node.cpp
+E:\Prj1\Prj\WideAreaNetwork\NetworkController\Node.cpp(406) : warning C4018: '<' : signed/unsigned mismatch
+E:\Prj1\Prj\WideAreaNetwork\NetworkController\Node.cpp(406) : warning C4018: '<' : signed/unsigned mismatch
+E:\Prj1\Prj\WideAreaNetwork\NetworkController\Node.cpp(424) : warning C4018: '<' : signed/unsigned mismatch
+E:\Prj1\Prj\WideAreaNetwork\NetworkController\Node.cpp(443) : warning C4018: '<' : signed/unsigned mismatch
+Generating Code...
+Skipping... (no relevant changes detected)
+NetworkView.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+Nctr.exe - 0 error(s), 4 warning(s)
+</pre>
+</body>
+</html>

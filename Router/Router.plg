@@ -1,0 +1,28 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Router - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPCC.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /FR"Debug/" /Fp"Debug/Router.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\Prj1\Prj\WideAreaNetwork\Router\Router.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPCC.tmp" 
+Creating command line "link.exe /nologo /subsystem:console /incremental:yes /pdb:"Debug/r.pdb" /debug /machine:I386 /out:"..\Executables\r.exe" /pdbtype:sept  .\Debug\Router.obj .\Debug\StdAfx.obj .\Debug\Router.res "
+<h3>Output Window</h3>
+Compiling...
+Router.cpp
+E:\Prj1\Prj\WideAreaNetwork\Router\Router.cpp(391) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+Linking...
+
+
+
+<h3>Results</h3>
+r.exe - 0 error(s), 1 warning(s)
+</pre>
+</body>
+</html>

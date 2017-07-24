@@ -1,0 +1,73 @@
+﻿Build started 2/8/2016 1:29:22 PM.
+     1>Project "C:\Users\Dharmesh\Desktop\New folder (9)\Runs\WideAreaNetwork\WideAreaNetwork\RouterNode\RouterNode.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file ".\Debug\RouterNode.lastbuildstate".
+       InitializeBuildStatus:
+         Touching ".\Debug\RouterNode.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp".\Debug\RouterNode.pch" /Fo".\Debug\\" /Fd".\Debug\vc100.pdb" /FR".\Debug\\" /Gd /TP /analyze- /errorReport:prompt StdAfx.cpp
+         StdAfx.cpp
+         _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp".\Debug\RouterNode.pch" /Fo".\Debug\\" /Fd".\Debug\vc100.pdb" /FR".\Debug\\" /Gd /TP /analyze- /errorReport:prompt CommLine.cpp DropNeighbourTimer.cpp InputOutput.cpp Neighbourhood.cpp Packet.cpp Queue.cpp RouterNode.cpp RouterNodeDlg.cpp
+         RouterNodeDlg.cpp
+         RouterNode.cpp
+     1>c:\users\dharmesh\desktop\new folder (9)\runs\wideareanetwork\wideareanetwork\routernode\routernode.cpp(56): warning C4996: 'CWinApp::Enable3dControlsStatic': CWinApp::Enable3dControlsStatic is no longer needed. You should remove this call.
+                 c:\program files\microsoft visual studio 10.0\vc\atlmfc\include\afxwin.h(5347) : see declaration of 'CWinApp::Enable3dControlsStatic'
+         Queue.cpp
+         Packet.cpp
+         Neighbourhood.cpp
+         InputOutput.cpp
+         DropNeighbourTimer.cpp
+     1>c:\users\dharmesh\desktop\new folder (9)\runs\wideareanetwork\wideareanetwork\routernode\dropneighbourtimer.cpp(42): warning C4101: 'temp' : unreferenced local variable
+         CommLine.cpp
+     1>c:\users\dharmesh\desktop\new folder (9)\runs\wideareanetwork\wideareanetwork\routernode\commline.cpp(49): warning C4996: 'write': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _write. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\io.h(318) : see declaration of 'write'
+     1>c:\users\dharmesh\desktop\new folder (9)\runs\wideareanetwork\wideareanetwork\routernode\commline.cpp(75): warning C4996: 'read': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _read. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\io.h(313) : see declaration of 'read'
+         Generating Code...
+       ResourceCompile:
+         c:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _DEBUG /D _VC80_UPGRADE=0x0600 /l"0x0409" /nologo /fo".\Debug\RouterNode.res" RouterNode.rc 
+       ManifestResourceCompile:
+         c:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo".\Debug\RouterNode.exe.embed.manifest.res" .\Debug\RouterNode_manifest.rc 
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(C:\Users\Dharmesh\Desktop\New folder (9)\Runs\WideAreaNetwork\WideAreaNetwork\RouterNode\.\Debug\RouterNode.exe) does not match the Linker's OutputFile property value (C:\Users\Dharmesh\Desktop\New folder (9)\Runs\WideAreaNetwork\WideAreaNetwork\Executables\r.exe). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(992,5): warning MSB8012: TargetName(RouterNode) does not match the Linker's OutputFile property value (r). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\Executables\r.exe" /INCREMENTAL /NOLOGO /MANIFEST /ManifestFile:".\Debug\RouterNode.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Dharmesh\Desktop\New folder (9)\Runs\WideAreaNetwork\WideAreaNetwork\RouterNode\Debug\RouterNode.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Debug\RouterNode.lib" /MACHINE:X86 .\Debug\RouterNode.res
+         .\Debug\RouterNode.exe.embed.manifest.res
+         .\Debug\CommLine.obj
+         .\Debug\DropNeighbourTimer.obj
+         .\Debug\InputOutput.obj
+         .\Debug\Neighbourhood.obj
+         .\Debug\Packet.obj
+         .\Debug\Queue.obj
+         .\Debug\RouterNode.obj
+         .\Debug\RouterNodeDlg.obj
+         .\Debug\StdAfx.obj
+         LINK : program database C:\Users\Dharmesh\Desktop\New folder (9)\Runs\WideAreaNetwork\WideAreaNetwork\RouterNode\Debug\RouterNode.pdb missing; performing full link
+       Manifest:
+         Deleting file ".\Debug\RouterNode.exe.embed.manifest".
+         c:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:".\Debug\RouterNode.exe.embed.manifest" /manifest .\Debug\RouterNode.exe.intermediate.manifest "C:\Program Files\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+         c:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo".\Debug\RouterNode.exe.embed.manifest.res" .\Debug\RouterNode_manifest.rc 
+       LinkEmbedManifest:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\Executables\r.exe" /INCREMENTAL /NOLOGO /MANIFEST /ManifestFile:".\Debug\RouterNode.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Dharmesh\Desktop\New folder (9)\Runs\WideAreaNetwork\WideAreaNetwork\RouterNode\Debug\RouterNode.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Debug\RouterNode.lib" /MACHINE:X86 .\Debug\RouterNode.res
+         .\Debug\RouterNode.exe.embed.manifest.res
+         .\Debug\CommLine.obj
+         .\Debug\DropNeighbourTimer.obj
+         .\Debug\InputOutput.obj
+         .\Debug\Neighbourhood.obj
+         .\Debug\Packet.obj
+         .\Debug\Queue.obj
+         .\Debug\RouterNode.obj
+         .\Debug\RouterNodeDlg.obj
+         .\Debug\StdAfx.obj
+         RouterNode.vcxproj -> C:\Users\Dharmesh\Desktop\New folder (9)\Runs\WideAreaNetwork\WideAreaNetwork\RouterNode\.\Debug\RouterNode.exe
+       BscMake:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\bscmake.exe /nologo /o".\Debug\RouterNode.bsc" .\Debug\CommLine.sbr .\Debug\DropNeighbourTimer.sbr .\Debug\InputOutput.sbr .\Debug\Neighbourhood.sbr .\Debug\Packet.sbr .\Debug\Queue.sbr .\Debug\RouterNode.sbr .\Debug\RouterNodeDlg.sbr .\Debug\StdAfx.sbr
+       FinalizeBuildStatus:
+         Deleting file ".\Debug\RouterNode.unsuccessfulbuild".
+         Touching ".\Debug\RouterNode.lastbuildstate".
+     1>Done Building Project "C:\Users\Dharmesh\Desktop\New folder (9)\Runs\WideAreaNetwork\WideAreaNetwork\RouterNode\RouterNode.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:35.19

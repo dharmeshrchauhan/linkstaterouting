@@ -1,0 +1,67 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: RouterNode - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Debug/RouterNode.res" /d "_DEBUG" "E:\Prj1\Prj\WideAreaNetwork\RouterNode\RouterNode.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPE3.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fp"Debug/RouterNode.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\Prj1\Prj\WideAreaNetwork\RouterNode\CommLine.cpp"
+"E:\Prj1\Prj\WideAreaNetwork\RouterNode\DropNeighbourTimer.cpp"
+"E:\Prj1\Prj\WideAreaNetwork\RouterNode\InputOutput.cpp"
+"E:\Prj1\Prj\WideAreaNetwork\RouterNode\Neighbourhood.cpp"
+"E:\Prj1\Prj\WideAreaNetwork\RouterNode\Packet.cpp"
+"E:\Prj1\Prj\WideAreaNetwork\RouterNode\Queue.cpp"
+"E:\Prj1\Prj\WideAreaNetwork\RouterNode\RouterNode.cpp"
+"E:\Prj1\Prj\WideAreaNetwork\RouterNode\RouterNodeDlg.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPE3.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPE4.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fp"Debug/RouterNode.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\Prj1\Prj\WideAreaNetwork\RouterNode\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPE4.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPE5.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/r.pdb" /debug /machine:I386 /out:"..\Executables\r.exe" /pdbtype:sept 
+.\Debug\CommLine.obj
+.\Debug\DropNeighbourTimer.obj
+.\Debug\InputOutput.obj
+.\Debug\Neighbourhood.obj
+.\Debug\Packet.obj
+.\Debug\Queue.obj
+.\Debug\RouterNode.obj
+.\Debug\RouterNodeDlg.obj
+.\Debug\StdAfx.obj
+.\Debug\RouterNode.res
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPE5.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+Queue.cpp
+RouterNodeDlg.cpp
+Generating Code...
+Skipping... (no relevant changes detected)
+CommLine.cpp
+DropNeighbourTimer.cpp
+InputOutput.cpp
+Neighbourhood.cpp
+Packet.cpp
+RouterNode.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+r.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

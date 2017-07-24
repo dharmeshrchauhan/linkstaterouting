@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CommLine", "CommLine\CommLine.vcxproj", "{508E09E1-BF0E-4234-5990-851F0785BBC5}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NetworkController", "NetworkController\NetworkController.vcxproj", "{EDBC6E98-5185-EE8D-AC27-6C9F98932301}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Router", "Router\Router.vcxproj", "{EC0FD93F-36E1-5F65-7E3D-5C0C2DE8ED3A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RouterNode", "RouterNode\RouterNode.vcxproj", "{341C6929-E718-3054-9E06-F9A650D6DF01}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+		Template|Win32 = Template|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{508E09E1-BF0E-4234-5990-851F0785BBC5}.Debug|Win32.ActiveCfg = Debug|Win32
+		{508E09E1-BF0E-4234-5990-851F0785BBC5}.Debug|Win32.Build.0 = Debug|Win32
+		{508E09E1-BF0E-4234-5990-851F0785BBC5}.Release|Win32.ActiveCfg = Release|Win32
+		{508E09E1-BF0E-4234-5990-851F0785BBC5}.Release|Win32.Build.0 = Release|Win32
+		{508E09E1-BF0E-4234-5990-851F0785BBC5}.Template|Win32.ActiveCfg = Release|Win32
+		{508E09E1-BF0E-4234-5990-851F0785BBC5}.Template|Win32.Build.0 = Release|Win32
+		{EDBC6E98-5185-EE8D-AC27-6C9F98932301}.Debug|Win32.ActiveCfg = Debug|Win32
+		{EDBC6E98-5185-EE8D-AC27-6C9F98932301}.Debug|Win32.Build.0 = Debug|Win32
+		{EDBC6E98-5185-EE8D-AC27-6C9F98932301}.Release|Win32.ActiveCfg = Release|Win32
+		{EDBC6E98-5185-EE8D-AC27-6C9F98932301}.Release|Win32.Build.0 = Release|Win32
+		{EDBC6E98-5185-EE8D-AC27-6C9F98932301}.Template|Win32.ActiveCfg = Template|Win32
+		{EDBC6E98-5185-EE8D-AC27-6C9F98932301}.Template|Win32.Build.0 = Template|Win32
+		{EC0FD93F-36E1-5F65-7E3D-5C0C2DE8ED3A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{EC0FD93F-36E1-5F65-7E3D-5C0C2DE8ED3A}.Debug|Win32.Build.0 = Debug|Win32
+		{EC0FD93F-36E1-5F65-7E3D-5C0C2DE8ED3A}.Release|Win32.ActiveCfg = Release|Win32
+		{EC0FD93F-36E1-5F65-7E3D-5C0C2DE8ED3A}.Release|Win32.Build.0 = Release|Win32
+		{EC0FD93F-36E1-5F65-7E3D-5C0C2DE8ED3A}.Template|Win32.ActiveCfg = Template|Win32
+		{EC0FD93F-36E1-5F65-7E3D-5C0C2DE8ED3A}.Template|Win32.Build.0 = Template|Win32
+		{341C6929-E718-3054-9E06-F9A650D6DF01}.Debug|Win32.ActiveCfg = Debug|Win32
+		{341C6929-E718-3054-9E06-F9A650D6DF01}.Debug|Win32.Build.0 = Debug|Win32
+		{341C6929-E718-3054-9E06-F9A650D6DF01}.Release|Win32.ActiveCfg = Release|Win32
+		{341C6929-E718-3054-9E06-F9A650D6DF01}.Release|Win32.Build.0 = Release|Win32
+		{341C6929-E718-3054-9E06-F9A650D6DF01}.Template|Win32.ActiveCfg = Template|Win32
+		{341C6929-E718-3054-9E06-F9A650D6DF01}.Template|Win32.Build.0 = Template|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
